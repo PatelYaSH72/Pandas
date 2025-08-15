@@ -10,13 +10,18 @@ import Java from "../../assets/pngegg_11.png"
 import C from "../../assets/pngegg_6.png"
 import Python from "../../assets/pngegg_7.png"
 import Js from './FeaturedTechnologyre/Js'
+import { useNavigate } from "react-router-dom";
+
 
 const FeaturedTechnology = () => {
+
+  const navigate = useNavigate();
+
   return (
     <div className='Featured_tech' name="Featured-tech">
        <div>
         <ul>
-          <li style={{background:"#FFE082", color:"black"}}><a href="/Js"  style={{textDecoration:"none"}}>
+          <li onClick={()=>navigate("/Js")} style={{background:"#FFE082", color:"black"}}><a href="/Js"  style={{textDecoration:"none"}}>
             <div>
             <img src={js} alt="" />
             <p>Java Script</p>

@@ -376,10 +376,10 @@ function App() {
            {/* <Login_signup loginsignup={loginsignup} setLoginsignup={()=>setLoginsignup(false)}/> */}
             </>
         }</>}></Route>
-            {/* <Route path='/Resources-WebD' element={<Resources1/>}>
+            <Route path='/Resources-WebD' element={<Resources1/>}>
             </Route>
             <Route path='/Resources-DataS' element={<Resources2/>}>
-            </Route> */}
+            </Route>
             <Route path='/Resources-MobiD' element={<Resources3/>}>
             </Route>
             <Route path='/Resources-AiMl' element={<Resources4/>}>

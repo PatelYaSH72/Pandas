@@ -1,0 +1,116 @@
+.Contact{
+  display: flex;
+  /* align-items: center; */
+  margin: 100px 0;
+  justify-content: space-between;
+  width: 100%;
+}
+.Contact-left{
+  flex-basis: 48%;
+}
+.Contact-right{
+  flex-basis: 48%;
+  background-color: rgba(20, 24, 33, 0.6);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 20px;
+}
+.Contact-right form{
+  margin: 10px;
+}
+.Contact-left{
+  /* background-color: #4F959D; */
+  background: linear-gradient(to right, #1f1f3d, #131322);;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 20px 30px 11px;
+  /* border-color: #223a3f; */
+  /* border: 1px solid #223a3f; */
+  /* box-shadow: -4px -4px 9px 2px #1f1f3165, 4px 4px 9px 2px #0d0e127a; */
+  border-radius: 20px;
+  border: none;
+  /* color: white; */
+}
+.Contact-left h3{
+  font-family: "poppins";
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: white;
+}
+.Contact-left p{
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 468;
+}
+.Contact-location{
+  /* display: flex; */
+  padding: 10px 0 13px;
+  margin: 11.8px 19px;
+}
+.Contact-location h2{
+  font-size: 19px;
+  margin: 19px 0;
+  display: flex;
+  gap: 14.8px;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+.Contact-location h2 svg{
+  color: black;
+  width: "50px";
+  height: "50px";
+  border-radius: "50%";
+}
+.Contact-right{
+  display: flex;
+  flex-direction: column;
+  /* margin: 30px 0; */
+} 
+.Contact-right form input, .Contact-right form textarea{
+  display: block;
+  width: 100%; 
+  padding: 15px;
+  border-radius: 9px;
+  border: 0;
+  margin: 8px 0 28px;
+  outline: 0;
+  background-color: #d6eaf8;
+  background-color: #d7ecfa;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+}
+.Contact-right form label{
+  font-size: 19px;
+  font-weight: 528;
+  color: #fbfbfd;
+}
+@media (max-width: 900.8px){
+  .Contact{
+    flex-direction: column;
+  }  
+  .Contact-location h2{
+    font-family: "poppins";
+    font-weight: 578;
+  }
+}
+@media (max-width: 500px){
+  .Contact-location h2{
+    font-size: 16.8px;
+    font-family: "poppins";
+    font-weight: 529;
+  }
+  .Contact-location h2 svg{
+    height: 38px;
+    width: 38px;
+  }
+}
+.Cbtn{
+  background: linear-gradient(to right, #2563eb, #3b82f6);
+  border-radius: 999px;
+}
+.Cbtn:hover{
+   background: linear-gradient(to right, #1d4ed8, #2563eb);
+}

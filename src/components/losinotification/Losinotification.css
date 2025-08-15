@@ -1,0 +1,188 @@
+.ToastNotifi{
+  display: none;
+  position: fixed;
+  height: 80px;
+  width: 25%;
+  z-index: 101;
+  background-color: #8aacfac6;
+  backdrop-filter: blur(5px);
+  left: 35%;
+  /* right: 50%; */
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  animation: identifier 2s ease-in 0.5s 1;
+  /* animation-direction: al; */
+  margin-top: -80px;
+  padding: 20px;
+}
+.popupa{
+  display: flex;
+}
+.CkeckWrt{
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.TnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.TnContainer h2{
+  font-size: 20px;
+}
+@keyframes identifier {
+  to{
+    margin-top: -50px;
+  }
+  40%{
+    margin-top: 30px;
+  }
+  50%{
+    margin-top: 30px;
+    /* animation: identifier 2s ease-in 1s 1; */
+  }
+  60%{
+    margin-top: 30px;
+  }
+  70%{
+    margin-top: 30px;
+  }
+  from{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1278px){
+  .CkeckWrt{
+    height: 30px;
+    width: 30px;
+  }
+  .TnContainer h2{
+  font-size: 18px;
+  }
+  .ToastNotifi{
+    width: 28%;
+    left: 30%;
+  }
+}
+@media (max-width: 1188px){
+  .CkeckWrt{
+    height: 30px;
+    width: 30px;
+  }
+  .TnContainer h2{
+  font-size: 15px;
+  }
+  .ToastNotifi{
+    width: 28%;
+  }
+}
+@media (max-width: 1038px){
+  .CkeckWrt{
+    height: 30px;
+    width: 30px;
+  }
+  .TnContainer h2{
+  font-size: 15px;
+  }
+  .ToastNotifi{
+    width: 34%;
+  }
+}
+@media (max-width: 860px){
+  .CkeckWrt{
+    height: 30px;
+    width: 30px;
+  }
+  .TnContainer h2{
+  font-size: 14px;
+  }
+  .ToastNotifi{
+    width: 38%;
+    padding: 10px;
+    height: 58px;
+  }
+}
+@media (max-width: 688px){
+  .CkeckWrt{
+    height: 30px;
+    width: 30px;
+  }
+  .TnContainer h2{
+  font-size: 13px;
+  }
+  .ToastNotifi{
+    width: 45%;
+    padding: 10px;
+    height: 58px;
+  }
+}
+@media (max-width: 540px){
+  .CkeckWrt{
+    height: 20px;
+    width: 20px;
+    gap: 5px;
+  }
+  .TnContainer h2{
+  font-size: 12px;
+  }
+  .ToastNotifi{
+    width: 45%;
+    padding: 5px;
+    height: 48px;
+  }
+  .TnContainer{
+    gap: 5px;
+  }
+}
+@media (max-width: 458px){
+  .CkeckWrt{
+    height: 23.8px;
+    width: 23.8px;
+  }
+  .TnContainer h2{
+  font-size: 11px;
+  }
+  .ToastNotifi{
+    width: 50%;
+    padding: 10px;
+    height: 58px;
+  }
+}
+@media (max-width: 408px){
+  .CkeckWrt{
+    height: 23.8px;
+    width: 23.8px;
+  }
+  .TnContainer h2{
+    font-size: 10px;
+  }
+  .ToastNotifi{
+    width: 50%;
+    padding: 10px;
+    height: 58px;
+    left: 28%;
+  }
+}
+@media (max-width: 378px){
+  .CkeckWrt{
+    height: 23.8px;
+    width: 23.8px;
+  }
+  .TnContainer h2{
+    font-size: 10px;
+  }
+  .ToastNotifi{
+    width: 58%;
+    padding: 10px;
+    height: 48px;
+    left: 28%;
+  }
+}

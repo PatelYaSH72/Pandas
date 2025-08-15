@@ -1,0 +1,23 @@
+.header{
+  margin: 80px 0 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header h1{
+  font-size: 45px;
+  color: rgb(248, 242, 248);
+}
+.header p{
+  font-size: 18px;
+  /* margin: 7px 0 20px; */
+  color: #9CA3AF;
+}
+@media (max-width:869px){
+  .header h1{
+    font-size: 30px;
+  }
+  .header p{
+    font-size: 15px;
+  }
+}

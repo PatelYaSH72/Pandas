@@ -1,0 +1,35 @@
+.Footer{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(147, 147, 148);
+  color: rgb(83, 82, 89);
+  background-color: black;
+}
+.Footer ul{
+  display: flex;
+}
+.Footer ul li{
+  list-style: none;
+  margin-left: 29px;
+  /* color: white; */
+}
+.Footer ul{
+  padding: 8px;
+}
+.Footer{
+  padding: 9px;
+}
+@media (max-width:708px){
+  .Footer ul li{
+    margin-left: 18px;
+  }
+}
+@media (max-width:588px){
+  .Footer ul li{
+    font-size: 14px;
+  }
+  .Footer p{
+    font-size: 16px;
+  }
+}

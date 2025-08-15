@@ -1,0 +1,60 @@
+.ToastNotifi{
+  display: none;
+  position: fixed;
+  height: 80px;
+  width: 28%;
+  z-index: 101;
+  background-color: #8aacfac6;
+  backdrop-filter: blur(5px);
+  left: 35%;
+  /* right: 50%; */
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  animation: identifier 2s ease-in 0.5s 1;
+  /* animation-direction: al; */
+  margin-top: -80px;
+}
+.popupa{
+  display: flex;
+}
+.CkeckWrt{
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.TnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.TnContainer h2{
+  font-size: 24px;
+}
+@keyframes identifier {
+  to{
+    margin-top: -50px;
+  }
+  40%{
+    margin-top: 30px;
+  }
+  50%{
+    margin-top: 30px;
+    /* animation: identifier 2s ease-in 1s 1; */
+  }
+  60%{
+    margin-top: 30px;
+  }
+  70%{
+    margin-top: 30px;
+  }
+  from{
+    margin-top: 10px;
+  }
+}

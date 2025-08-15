@@ -17,7 +17,7 @@ import { HiArrowSmallLeft } from "react-icons/hi2";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Services from '../Services/Services';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 // import { Setj } from './uonof';
 
@@ -25,7 +25,7 @@ import { useNavigate } from "react-router-dom";
 
 const ServicesCompo = ({Setj1, Setj2, Setj3, Setj4, Setj5, Setj6, Setj7, Setj8, Setj9, Setj10, Setj11, Setj12, Setj13, Setj14, Setj15, updown1, updown2, updown3, updown4, updown5, updown6, updown7, updown8, updown9, updown10, updown11, updown12, updown13, updown14, updown15}) => {
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
       return (
         <>
@@ -34,8 +34,8 @@ const ServicesCompo = ({Setj1, Setj2, Setj3, Setj4, Setj5, Setj6, Setj7, Setj8, 
     <div className="servicesCompo">
       <div className="ServicesCompo-left">
         <ul>
-          <li onClick={Setj1}> <div className={`tile ${updown1?"tileu":""}`}>Web Development <IoIosArrowRoundForward size={40}/></div><div onClick={()=>navigate("/Resources-WebD")} className="Resources"><a className="Resources" href="/Resources-webD" target='_blank'>Resources <IoIosArrowRoundForward size={40}/></a></div></li>
-          <li onClick={Setj2}><div className={`tile ${updown2?"tileu":""}`}>Data Sciense & Analytics <IoIosArrowRoundForward size={40}/></div><div onClick={()=>navigate("/Resources-DataS")}className="Resources"><a className="Resources" href="/Resources-DataS" target='_blank'>Resources <IoIosArrowRoundForward size={40}/></a></div></li>
+          <li onClick={Setj1}> <div className={`tile ${updown1?"tileu":""}`}>Web Development <IoIosArrowRoundForward size={40}/></div><div  className="Resources"><a className="Resources" href="/Resources-webD" target='_blank'>Resources <IoIosArrowRoundForward size={40}/></a></div></li>
+          <li onClick={Setj2}><div className={`tile ${updown2?"tileu":""}`}>Data Sciense & Analytics <IoIosArrowRoundForward size={40}/></div><div className="Resources"><a className="Resources" href="/Resources-DataS" target='_blank'>Resources <IoIosArrowRoundForward size={40}/></a></div></li>
           <li onClick={Setj3}><div className={`tile ${updown3?"tileu":""}`}>mobile Development <IoIosArrowRoundForward size={40}/></div><div className="Resources"><a className="Resources" href="/Resources-MobiD" target='_blank'>Resources <IoIosArrowRoundForward size={40}/></a></div></li>
           <li onClick={Setj4}><div className={`tile ${updown4?"tileu":""}`}>AI & Machine Learning <IoIosArrowRoundForward size={40}/></div><div className="Resources"><a className="Resources" href="/Resources-AiMl" target='_blank'>Resources <IoIosArrowRoundForward size={40}/></a></div></li>
           <li onClick={Setj5}> <div className={`tile ${updown5?"tileu":""}`}>Software Development <IoIosArrowRoundForward size={40}/></div><div className="Resources"><a className="Resources" href="/Resources-SoftwD" target='_blank'>Resources <IoIosArrowRoundForward size={40}/></a></div></li>

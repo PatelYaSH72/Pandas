@@ -80,7 +80,7 @@ function App() {
 
   const [show, setShow] = useState(false);
 
-    const [updown1, setUpdown1] = useState(true);
+    const [updown1, setUpdown1] = useState(false);
     const [updown2, setUpdown2] = useState(false);
     const [updown3, setUpdown3] = useState(false);
     const [updown4, setUpdown4] = useState(false);

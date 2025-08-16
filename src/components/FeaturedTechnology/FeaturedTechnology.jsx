@@ -18,7 +18,7 @@ const FeaturedTechnology = () => {
   const navigate = useNavigate();
 
   return (
-    <div className='Featured_tech' name="Featured-tech">
+    <div className='Featured_tech'id="Featured-tech">
        <div>
         <ul>
           <li onClick={()=>navigate("/Js")} style={{background:"#FFE082", color:"black"}}><a style={{textDecoration:"none"}}>

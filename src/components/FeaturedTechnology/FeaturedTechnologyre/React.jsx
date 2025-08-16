@@ -8,6 +8,7 @@ import { CiFacebook } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import {useState} from 'react'
 import { GoDotFill } from "react-icons/go";
+import { HashLink } from 'react-router-hash-link';
 
 const Ract = () => {
   const [card, setCard] = useState(true);
@@ -41,7 +42,12 @@ const Ract = () => {
   return (
     <div className='featu-containers'>
       <div className='featu-container'>
-          <div className='svg-container'><div className='svg'><a href="/"><HiArrowSmallLeft size={30} color='white'/></a></div></div>
+          <div className='svg-container'><div className='svg'><HashLink to="/#Featured-tech"  scroll={el=>{
+                const yOffset = -100; // 👈 yaha aap offset set kar sakte ho (upar se kitna gap chahiye)
+              const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+          
+              }}><HiArrowSmallLeft size={30} color='white'/></HashLink></div></div>
           <div className='title-container'>
             <h1>Where Code Comes Alive – Welcome!</h1>
             <p>React ek open-source JavaScript library hai jo user interfaces (UIs), especially single-page applications (SPAs) banane ke liye use hoti hai. Iska development Facebook ne kiya tha aur pehli baar 2013 me release kiya gaya. React ka core idea hai component-based architecture — jisme UI ko chhoti, reusable blocks (components) me divide kiya jata hai. Yeh Virtual DOM ka use karta hai, jo performance ko optimize karta hai by minimizing direct DOM manipulation. React developer-friendly hai, aur yeh web ke alawa mobile apps banane ke liye bhi use hota hai (React Native ke through). Aaj ke modern web development stack me React ek leading tool hai.</p>

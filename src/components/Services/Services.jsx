@@ -72,7 +72,7 @@ const Services = ({onClick, setShow, Setj1, Setj2, Setj3, Setj4, Setj5}) => {
 
   
   return(
-    <div className="Services">
+    <div className="Services" id='Services'>
       <div className="Services-coter">
         <div className="Services-left">
           <img src={ServicesImg} alt="" />

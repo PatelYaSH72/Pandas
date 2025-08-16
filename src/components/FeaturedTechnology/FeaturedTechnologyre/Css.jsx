@@ -8,6 +8,7 @@ import { CiFacebook } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import {useState} from 'react'
 import { GoDotFill } from "react-icons/go";
+import { HashLink } from 'react-router-hash-link';
 
 const Css = () => {
   const [card, setCard] = useState(true);
@@ -41,7 +42,12 @@ const Css = () => {
   return (
     <div className='featu-containers'>
       <div className='featu-container'>
-          <div className='svg-container'><div className='svg'><a href="/"><HiArrowSmallLeft size={30} color='white'/></a></div></div>
+          <div className='svg-container'><div className='svg'><HashLink to="/#Featured-tech"  scroll={el=>{
+                const yOffset = -100; // 👈 yaha aap offset set kar sakte ho (upar se kitna gap chahiye)
+              const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+          
+              }}><HiArrowSmallLeft size={30} color='white'/></HashLink></div></div>
           <div className='title-container'>
             <h1>Where Code Comes Alive – Welcome!</h1>
             <p>CSS (Cascading Style Sheets) ek language hai jo HTML elements ko style karti hai. Isse hum colors, fonts, size, layout aur design set karte hain. CSS se website sundar, responsive aur user-friendly banti hai.</p>

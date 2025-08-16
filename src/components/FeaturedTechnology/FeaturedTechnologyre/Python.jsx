@@ -8,6 +8,7 @@ import { CiFacebook } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import {useState} from 'react'
 import { GoDotFill } from "react-icons/go";
+import { HashLink } from 'react-router-hash-link';
 
 const Python = () => {
   const [card, setCard] = useState(true);
@@ -41,7 +42,12 @@ const Python = () => {
   return (
     <div className='featu-containers'>
       <div className='featu-container'>
-          <div className='svg-container'><div className='svg'><a href="/"><HiArrowSmallLeft size={30} color='white'/></a></div></div>
+          <div className='svg-container'><div className='svg'><HashLink to="/#Featured-tech"  scroll={el=>{
+                const yOffset = -100; // 👈 yaha aap offset set kar sakte ho (upar se kitna gap chahiye)
+              const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+          
+              }}><HiArrowSmallLeft size={30} color='white'/></HashLink></div></div>
           <div className='title-container'>
             <h1>Where Code Comes Alive – Welcome!</h1>
             <p>Python ek high-level, interpreted programming language hai jo readability aur simplicity ke liye mashhoor hai. Yeh language 1991 me Guido van Rossum ne develop ki thi, aur aaj ke time me yeh web development, data science, automation, machine learning, AI, scripting, aur software development jaise kai areas me extensively use hoti hai. Python ka syntax clean aur English jaisa lagta hai, isliye beginners ke liye yeh ek ideal language hai. Iske vast library ecosystem aur open-source community support ki wajah se Python duniya ki sabse popular programming languages me se ek ban chuki hai.</p>

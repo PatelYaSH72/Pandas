@@ -8,6 +8,7 @@ import { CiFacebook } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import {useState} from 'react'
 import { GoDotFill } from "react-icons/go";
+import { HashLink } from 'react-router-hash-link';
 
 const Html = () => {
   const [card, setCard] = useState(true);
@@ -41,7 +42,12 @@ const Html = () => {
   return (
     <div className='featu-containers'>
       <div className='featu-container'>
-          <div className='svg-container'><div className='svg'><a href="/"><HiArrowSmallLeft size={30} color='white'/></a></div></div>
+          <div className='svg-container'><div className='svg'><HashLink to="/#Featured-tech"  scroll={el=>{
+                const yOffset = -100; // 👈 yaha aap offset set kar sakte ho (upar se kitna gap chahiye)
+              const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+          
+              }}><HiArrowSmallLeft size={30} color='white'/></HashLink></div></div>
           <div className='title-container'>
             <h1>Where Code Comes Alive – Welcome!</h1>
             <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It defines the building blocks of a webpage using elements like headings, paragraphs, images, links, and more. HTML provides the basic structure, which is then styled using CSS and made interactive using JavaScript. Every website you visit is built on HTML at its core.</p>

@@ -8,6 +8,7 @@ import { CiFacebook } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import {useState} from 'react'
 import { GoDotFill } from "react-icons/go";
+import { HashLink } from 'react-router-hash-link';
 
 const Angular = () => {
   const [card, setCard] = useState(true);
@@ -41,7 +42,12 @@ const Angular = () => {
   return (
     <div className='featu-containers'>
       <div className='featu-container'>
-          <div className='svg-container'><div className='svg'><a href="/"><HiArrowSmallLeft size={30} color='white'/></a></div></div>
+          <div className='svg-container'><div className='svg'><HashLink to="/#Featured-tech"  scroll={el=>{
+                const yOffset = -100; // 👈 yaha aap offset set kar sakte ho (upar se kitna gap chahiye)
+              const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+          
+              }}><HiArrowSmallLeft size={30} color='white'/></HashLink></div></div>
           <div className='title-container'>
             <h1>Where Code Comes Alive – Welcome!</h1>
             <p>Angular ek open-source, TypeScript-based web framework hai jo Google ne develop kiya hai. Ye dynamic single-page applications (SPA) banane ke liye use hota hai. Isme powerful features hote hain jaise data binding, dependency injection, and reusable components, jo large-scale applications ke development ko fast aur maintainable banate hain. Angular mostly enterprise-level apps ke liye prefer kiya jata hai.</p>

@@ -18,6 +18,7 @@ import { HiArrowSmallRight } from "react-icons/hi2";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Services from '../Services/Services';
 import { useNavigate } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 // import { Setj } from './uonof';
 
@@ -30,7 +31,12 @@ const ServicesCompo = ({Setj1, Setj2, Setj3, Setj4, Setj5, Setj6, Setj7, Setj8, 
       return (
         <>
 
-    <a className="homebtn" href='/'><HiArrowSmallLeft size={18}/> Home</a>
+    <HashLink className="homebtn" to='/#Services' smooth={true} offset={-100} scroll={el=>{
+      const yOffset = -100; // 👈 yaha aap offset set kar sakte ho (upar se kitna gap chahiye)
+    const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: "smooth" });
+
+    }}><HiArrowSmallLeft size={18}/> Home</HashLink>
     <div className="servicesCompo">
       <div className="ServicesCompo-left">
         <ul>

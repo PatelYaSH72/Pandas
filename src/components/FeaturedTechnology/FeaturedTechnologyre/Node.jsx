@@ -8,6 +8,7 @@ import { CiFacebook } from "react-icons/ci";
 import { IoMdDownload } from "react-icons/io";
 import {useState} from 'react'
 import { GoDotFill } from "react-icons/go";
+import { HashLink } from 'react-router-hash-link';
 
 const Node = () => {
   const [card, setCard] = useState(true);
@@ -41,7 +42,12 @@ const Node = () => {
   return (
     <div className='featu-containers'>
       <div className='featu-container'>
-          <div className='svg-container'><div className='svg'><a href="/"><HiArrowSmallLeft size={30} color='white'/></a></div></div>
+          <div className='svg-container'><div className='svg'><HashLink to="/#Featured-tech"  scroll={el=>{
+                const yOffset = -100; // 👈 yaha aap offset set kar sakte ho (upar se kitna gap chahiye)
+              const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              window.scrollTo({ top: y, behavior: "smooth" });
+          
+              }}><HiArrowSmallLeft size={30} color='white'/></HashLink></div></div>
           <div className='title-container'>
             <h1>Where Code Comes Alive – Welcome!</h1>
             <p>Node.js ek open-source, cross-platform runtime environment hai jo JavaScript ko server-side par run karne ke liye use hota hai. Iska development 2009 me Ryan Dahl ne kiya tha, aur yeh Chrome ke V8 JavaScript engine par based hai. Traditional JavaScript sirf browser me chalta tha, lekin Node.js ki help se hum JavaScript ko backend development ke liye bhi use kar sakte hain. Yeh non-blocking (asynchronous) I/O model ka use karta hai, jo high-performance aur scalable applications banane me madad karta hai — jaise APIs, real-time chat apps, streaming servers, aur zyada concurrent user handling. Node.js ke saath npm (Node Package Manager) milta hai, jisme hazaaron ready-to-use packages available hote hain.</p>

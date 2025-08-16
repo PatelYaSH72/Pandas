@@ -362,9 +362,9 @@ function App() {
          {sabopen?<ServicesCompo/>: <><Hero img_scrl={img_scrl}/>
           <About Player={Player}/>
          <div className='container'>
-          <Header subTitle="Technology thats works" Title="Our Services"/>
+          <Header subTitle="Technology thats works" Title="Our Services" id={"Services"}/>
           <Services onClick={()=>setSabopen(true)} setShow={()=>setShow(false)} Setj1={Setj1} Setj2={Setj2} Setj3={Setj3} Setj4={Setj4} Setj5={Setj5}/>
-          <Header subTitle="Trusted Tools Behind Our Work" Title="Featured Technology"/>
+          <Header subTitle="Trusted Tools Behind Our Work" Title="Featured Technology" id={"Featured-tech"}/>
           <FeaturedTechnology/>
           {/* <Header subTitle="What We Work With" Title="Testimonial"/> */}
           {/* <Testimonial/> */}

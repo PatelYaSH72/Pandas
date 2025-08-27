@@ -35,17 +35,17 @@ This website provides **detailed information and curated resources** for differe
 2. Go to project folder
 
  ```bash
-cd pandas
+   cd pandas
 ```
 
 3. Install dependencies
  ```bash
-npm install
+   npm install
 ```
 
 4. Run the project
  ```bash
-npm start
+   npm start
 ```
 
 

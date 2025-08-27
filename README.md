@@ -6,7 +6,7 @@ Is website me aapko *different technologies ke details aur curated resources* ek
 ---
 
 ## 🌐 Live Demo
-👉 [View Project on Render](https://your-render-link.onrender.com)
+👉 [View Project on Render](https://pandas-4ff7.onrender.com/)
 
 ---
 
@@ -29,22 +29,23 @@ Is website me aapko *different technologies ke details aur curated resources* ek
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/username/pandas.git
+   git clone https://github.com/PatelYaSH72/pandas.git
 
 2. Go to project folder
 
+ ```bash
 cd pandas
-
+```
 
 3. Install dependencies
-
+ ```bash
 npm install
-
+```
 
 4. Run the project
-
+ ```bash
 npm start
-
+```
 
 
 
@@ -53,7 +54,8 @@ npm start
 📸 Screenshots
 
 Add some screenshots of your website UI here
-Example:
+Example: <img width="1893" height="984" alt="Screenshot 2025-08-28 010759" src="https://github.com/user-attachments/assets/76375912-0854-4e48-a450-122d49b82399" />
+
 
 
 

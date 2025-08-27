@@ -1,7 +1,8 @@
 # 🐼 Pandas - Learning Resources Website
 
-Pandas ek *static learning based project* hai jo ReactJS aur CSS se banaya gaya hai.  
-Is website me aapko *different technologies ke details aur curated resources* ek hi jagah milte hain — jaise Web Development, Mobile App Development, Data Science, AI/ML, Cybersecurity, aur bahut kuch.  
+Pandas is a **static learning-based project** built using **ReactJS** and **CSS**.  
+This website provides **detailed information and curated resources** for different technologies all in one place — such as **Web Development, Mobile App Development, Data Science, AI/ML, Cybersecurity**, and much more.
+
 
 ---
 

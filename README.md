@@ -51,18 +51,17 @@ npm start
 
 ---
 
-📸 Screenshots
-
+#📸 Screenshots
 Add some screenshots of your website UI here
-Example: <img width="768" height="728" alt="Screenshot 2025-08-28 010759" src="https://github.com/user-attachments/assets/76375912-0854-4e48-a450-122d49b82399" />
-<img width="1000" height="300" alt="Screenshot 2025-08-28 010648" src="https://github.com/user-attachments/assets/7424a0e5-7e8c-45bf-9ab7-4058dfaa2ed4" />
-<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/345f0829-d4ca-4c5e-bba1-1a03ab989947" />
-<img width="1919" height="985" alt="image" src="https://github.com/user-attachments/assets/95ddb535-6974-4dfb-8871-effe604a7146" />
+Example:
 
-
-
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7424a0e5-7e8c-45bf-9ab7-4058dfaa2ed4" alt="Homepage" width="400"/>
+  <img src="https://github.com/user-attachments/assets/fff9cd72-c7d4-427b-9f0a-cee1ab11fba8" alt="Resources Page" width="400"/>
+  <img src="https://github.com/user-attachments/assets/3d0f635f-2c24-47e4-afee-92eb76365f45" alt="Technology Detail Page" width="400"/>
+  <img src="https://github.com/user-attachments/assets/b9a1a471-3a45-4640-a4b4-a6230860b809" alt="Homepage sections" width="400"/>
+  <img src="https://github.com/user-attachments/assets/3341b573-9769-48f1-ab14-d4c2bb160f35" alt="Homepage sections" width="400"/>
+</p>
 
 
 

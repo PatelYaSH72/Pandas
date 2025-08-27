@@ -56,9 +56,9 @@ npm start
 Add some screenshots of your website UI here
 Example: <img width="768" height="728" alt="Screenshot 2025-08-28 010759" src="https://github.com/user-attachments/assets/76375912-0854-4e48-a450-122d49b82399" />
 <img width="1000" height="300" alt="Screenshot 2025-08-28 010648" src="https://github.com/user-attachments/assets/7424a0e5-7e8c-45bf-9ab7-4058dfaa2ed4" />
-<img width="1912" height="919" alt="image" src="https://github.com/user-attachments/assets/345f0829-d4ca-4c5e-bba1-1a03ab989947" />
+<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/345f0829-d4ca-4c5e-bba1-1a03ab989947" />
 <img width="1919" height="985" alt="image" src="https://github.com/user-attachments/assets/95ddb535-6974-4dfb-8871-effe604a7146" />
-<img width="1912" height="919" alt="image" src="https://github.com/user-attachments/assets/9c53d699-7680-4200-9e68-ae76c86c3a0b" />
+
 
 
 
